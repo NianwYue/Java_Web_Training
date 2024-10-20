@@ -13,7 +13,7 @@ public class Register extends GenericServlet {
     private String message;
     @Override
     public void init() throws ServletException {
-        message = "注册成功!";
+        message = "尝试一次Git提交!";
     }
 
     @Override
